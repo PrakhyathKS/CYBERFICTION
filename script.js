@@ -461,3 +461,30 @@ function files(index) {
       scroller:`#main`
     }
   })
+  gsap.to("#roadmap",{
+    scrollTrigger:{
+      trigger:`#roadmap`,
+      start:`top top`,
+      end:`bottom top`,
+      pin:true,
+      scroller:`#main`
+    }
+  })
+  gsap.to("#profile",{
+    scrollTrigger:{
+      trigger:`#profile`,
+      start:`top top`,
+      end:`bottom top`,
+      pin:true,
+      scroller:`#main`
+    }
+  })
+  gsap.to("#page-prev-last",{
+    scrollTrigger:{
+      trigger:`#page-prev-last`,
+      start:`top top`,
+      end:`bottom top`,
+      pin:true,
+      scroller:`#main`
+    }
+  })
