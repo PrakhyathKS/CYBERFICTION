@@ -452,3 +452,12 @@ function files(index) {
       scroller:`#main`
     }
   })
+  gsap.to("#page4",{
+    scrollTrigger:{
+      trigger:`#page4`,
+      start:`top top`,
+      end:`bottom top`,
+      pin:true,
+      scroller:`#main`
+    }
+  })

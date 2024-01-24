@@ -42,6 +42,18 @@ body {
   /* background-color: #292929; */
   background-color: #e1e1e1;
 }
+#page4 {
+  position: relative;
+  height: 150vh;
+  width: 100vw;
+  background-color: #fff;
+}
+#page5 {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e1e1e1;
+}
 canvas {
   position: relative;
   z-index: 10;
@@ -74,7 +86,7 @@ nav h3 {
   font-size: 100px;
 }
 #loop h1 {
-  animation: text-loop-animation 20s linear infinite;
+  animation: text-loop-animation 24s linear infinite;
   font-weight: 400;
 }
 #loop h1 span {
@@ -183,3 +195,79 @@ nav h3 {
   font-size: 15px;
   line-height: 1.2;
 }
+#page5 #page5-text h1 {
+  -webkit-text-stroke: 1.2px #000;
+  color: transparent;
+  font-weight: 800;
+  top: 35%;
+  left: 15%;
+  font-size: 150px;
+  position: absolute;
+}
+#page5 #page5-text span {
+  -webkit-text-stroke: 1.2px #000;
+  color: transparent;
+  font-weight: 800;
+  position: absolute;
+  font-size: 150px;
+  top: 55%;
+  left: 25%;
+  text-align: center;
+}
+#page5 #button-div {
+  top: 30%;
+  display: flex;
+  font-size: 5px;
+  position: absolute;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#page5 #button-div button {
+  text-decoration: none;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+}
+
+#page5 #button-div button a {
+  text-decoration: none;
+  color: #000;
+  padding: 7px;
+  margin: 8px;
+}
+
+#page4 #page4-text {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+#page4 #page4-text h3 {
+  line-height: 1.2;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+#page4 #page4-text h1 {
+  font-size: 64px;
+  text-align: center;
+  line-height: 1.2;
+}
+#page4 #page4-text p {
+  font-size: 15px;
+  line-height: 1.2;
+  text-align: center;
+}
+#page4 #page4-img-loop {
+  white-space: nowrap;
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 25%;
+  top: 70%;
+  animation: text-loop-animation 3s linear infinite;
+}
+/* #page4 #page4-img-loop img {
+  animation: text-loop-animation 3s linear infinite;
+} */
