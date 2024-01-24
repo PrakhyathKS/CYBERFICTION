@@ -43,7 +43,7 @@ body {
 }
 #page4 {
   position: relative;
-  height: 120vh;
+  height: 100vh;
   width: 100vw;
   /* background-color: #e1e1e1; */
   background-color: #e1e1e1;
@@ -56,7 +56,7 @@ body {
 }
 #profile {
   position: relative;
-  height: 200vh;
+  height: 150vh;
   width: 100vw;
   background-color: #e1e1e1;
 }
@@ -68,7 +68,7 @@ body {
 }
 #page5 {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   width: 100vw;
   background-color: #e1e1e1;
 }
@@ -309,7 +309,7 @@ nav h3 {
 }
 #page-prev-last #page-prev-last-text {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 8%;
 }
 #page-prev-last #page-prev-last-text h3 {
@@ -344,7 +344,7 @@ nav h3 {
 }
 #profile #prof-loop {
   position: absolute;
-  top: 30%;
+  top: 10%;
 }
 #profile #prof-loop-text1 {
   white-space: nowrap;
@@ -352,8 +352,8 @@ nav h3 {
   position: absolute;
   width: 100%;
   height: 25%;
-  top: 30%;
-  font-size: 100px;
+  top: 20%;
+  font-size: 80px;
 }
 #profile #prof-loop-text1 h1 {
   -webkit-text-stroke: 1.2px #000;
@@ -367,8 +367,8 @@ nav h3 {
   position: absolute;
   width: 100%;
   height: 25%;
-  top: 45%;
-  font-size: 100px;
+  top: 32%;
+  font-size: 80px;
 }
 #profile #prof-loop-text2 h1 {
   -webkit-text-stroke: 1.2px #000;
@@ -382,8 +382,8 @@ nav h3 {
   position: absolute;
   width: 100%;
   height: 25%;
-  top: 60%;
-  font-size: 100px;
+  top: 44%;
+  font-size: 80px;
 }
 
 #profile #prof-loop-text3 h1 {
@@ -392,14 +392,36 @@ nav h3 {
   font-weight: 500;
   animation: text-loop-animation 24s linear infinite;
 }
-
-#profile img {
-  z-index: 10;
+#profile #prof-desc {
   position: absolute;
-  top: 40%;
-  left: 30%;
-  height: 40%;
-  width: 40%;
+  left: 33%;
+  top: 28%;
+  height: 100%;
+}
+#profile #prof-desc img {
+  z-index: 10;
+  height: 45%;
+  width: 100%;
+}
+#profile #prof-desc #prof-desc-text h4 {
+  margin-top: 10px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2;
+}
+#profile #prof-desc #prof-desc-text h5 {
+  margin-top: 5px;
+  font-size: 14x;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#profile #prof-desc #prof-desc-text p {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.2;
+  /* left: -50%; */
 }
 
 #roadmap h1 {
@@ -423,4 +445,80 @@ nav button {
   color: #fff;
   border: none;
   font-weight: 500;
+}
+footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  /* background: #171010; */
+  color: black;
+  padding: 0 0 2rem;
+  background-color: #e1e1e1;
+}
+footer a {
+  color: black;
+  text-decoration: none;
+}
+footer #foot-links {
+  display: flex;
+  flex-direction: row;
+}
+
+footer #foot-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  padding: 0.5em;
+  margin: 0.5rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  color: black;
+  text-decoration: none;
+}
+
+footer #foot-links a:hover {
+  background: black;
+  color: #fff;
+}
+
+footer #foot-mid-text {
+  width: 100%;
+  text-align: center;
+  margin: 2rem 0;
+  font-size: 130px;
+  letter-spacing: -2px;
+  line-height: 1;
+  -webkit-text-stroke: 1.2px #000;
+  color: transparent;
+  font-weight: 500;
+  font-style: italic;
+}
+footer #foot-bottom span {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#roadmap #box-container {
+  width: 90%;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: nowrap;
+
+  position: absolute;
+  padding: 4rem 1rem 12rem;
+}
+#roadmap #box-container h4 {
+  width: 100%;
+  text-align: left;
+  border-radius: 0.7rem;
+  margin: 0.5rem;
+  padding: 1.5rem 2rem;
+  background: #fff;
+  color: #171010;
+}
+#roadmap #box-container p {
+  margin: 0.5em 0;
 }
