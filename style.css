@@ -16,6 +16,7 @@ body {
 #main {
   position: relative;
   overflow: hidden;
+  background-color: #e1e1e1;
 }
 #page {
   position: relative;
@@ -48,12 +49,7 @@ body {
   /* background-color: #e1e1e1; */
   background-color: #e1e1e1;
 }
-#roadmap {
-  position: relative;
-  height: 100vh;
-  width: 100vw;
-  background-color: #e1e1e1;
-}
+
 #profile {
   position: relative;
   height: 150vh;
@@ -74,7 +70,7 @@ body {
 }
 canvas {
   position: absolute;
-  z-index: 10;
+  z-index: 99;
   max-width: 100vw;
   max-height: 100vh;
 }
@@ -123,8 +119,11 @@ nav h3 {
 #page h3 {
   position: absolute;
   top: 60%;
+  /* text-align: start; */
   font-weight: 300;
   color: #000;
+  /* padding-top: 30rem;
+  padding-left: 5px; */
   left: 5%;
   font-size: 14.4px;
 }
@@ -269,6 +268,8 @@ nav h3 {
 #page4 #page4-text {
   text-align: center;
   padding-top: 100px;
+  background-color: #e1e1e1;
+  /* min-width: 400px; */
 }
 #page4 #page4-text h3 {
   line-height: 1.2;
@@ -426,20 +427,6 @@ nav h3 {
   /* left: -50%; */
 }
 
-#roadmap h1 {
-  text-align: center;
-  top: 20%;
-  left: 41%;
-  font-size: 64px;
-  position: absolute;
-}
-#roadmap p {
-  text-align: center;
-  position: absolute;
-  font-size: 15px;
-  top: 30%;
-  left: 40%;
-}
 nav button {
   padding: 10px 20px;
   border-radius: 50px;
@@ -500,38 +487,19 @@ footer #foot-mid-text {
 }
 footer #foot-bottom p {
   text-align: center;
+  padding-bottom: 10px;
 }
 footer #foot-bottom span {
   font-family: "Noto Sans KR", sans-serif;
 }
 
-#roadmap #box-container {
-  width: 90%;
-  max-width: 1400px;
-  display: flex;
-  flex-wrap: nowrap;
-
-  position: absolute;
-  padding: 4rem 1rem 12rem;
-}
-#roadmap #box-container h4 {
-  width: 100%;
-  text-align: left;
-  border-radius: 0.7rem;
-  margin: 0.5rem;
-  padding: 1.5rem 2rem;
-  background: #fff;
-  color: #171010;
-}
-#roadmap #box-container p {
-  margin: 0.5em 0;
-}
-
 #roadmap-div {
   position: relative;
-  height: 100vh;
+  height: auto;
   width: 100vw;
   background-color: #e1e1e1;
+  padding: 50px 0;
+  box-sizing: border-box;
 }
 #roadmap-div #roadmap-div-header {
   padding-top: 100px;
@@ -551,10 +519,15 @@ footer #foot-bottom span {
   /* align-items: center; */
   flex-wrap: wrap;
   margin-top: 100px;
-  width: 85rem;
+  background-color: #e1e1e1;
+  max-width: 85rem;
+  /* padding-bottom: 50px; */
+  margin-bottom: 100px;
   /* left: 45%; */
   margin-right: auto;
   margin-left: auto;
+  /* min-height: 1rem; */
+  /* flex-direction: column; */
 }
 #roadmap-div #container #box {
   width: 325px;
@@ -572,7 +545,7 @@ footer #foot-bottom span {
   font-size: 20px;
   margin-bottom: 10px;
 }
-#roadmmap-div #container #box p {
+#roadmap-div #container #box p {
   font-size: 14px;
   /* text-align: left; */
   line-height: 1.2;

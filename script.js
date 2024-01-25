@@ -1,3 +1,11 @@
+function transitionToMainPage() {
+  document.body.classList.remove('before-load');
+}
+
+// Simulate the loading completion after a delay (replace this with your actual logic)
+setTimeout(transitionToMainPage, 1000);
+
+
 function locomotive() {
     gsap.registerPlugin(ScrollTrigger);
   
@@ -182,3 +190,5 @@ function files(index) {
       scroller:`#main`
     }
   })
+
+  

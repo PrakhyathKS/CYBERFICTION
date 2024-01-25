@@ -1,3 +1,4 @@
+/* ë¡œë”©ê´€ë ¨ */
 .loading {
   display: flex;
   align-items: center;
@@ -8,9 +9,10 @@
   bottom: 0;
   left: 0;
   z-index: 100;
-  background: #e1e1e1;
+  background: white;
   opacity: 0;
   transition: 0.5s;
+  pointer-events: none;
 }
 
 .before-load .loading {
@@ -38,17 +40,19 @@
 .loading-circle {
   width: 100px;
   height: 100px;
-  animation: loading-spin 1s infinite;
+  animation: loading-spin 2s infinite;
 }
 
 .loading-circle img {
   width: 100px;
   height: 100px;
+  /* animation: loading-circle-ani 1s infinite; */
 }
 
 .loading-circle circle {
   stroke: #171010;
   stroke-width: 4;
+  /* getTotalLength()ë¡œ strokeì˜ ê¸¸ì´ë¥¼ ì–»ì–´ì˜¬ ìˆ˜ ìžˆìŒ */
   stroke-dasharray: 157, 157;
   stroke-dashoffset: 0;
   fill: transparent;
