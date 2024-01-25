@@ -477,14 +477,19 @@ footer #foot-mid-text {
   width: 100%;
   text-align: center;
   margin: 2rem 0;
-  font-size: 130px;
+
   letter-spacing: -2px;
   line-height: 1;
-  -webkit-text-stroke: 1.2px #000;
-  color: transparent;
+
   font-weight: 500;
   font-style: italic;
 }
+footer #foot-mid-text span {
+  font-size: 130px;
+  -webkit-text-stroke: 1.2px #000;
+  color: transparent;
+}
+
 footer #foot-bottom p {
   text-align: center;
   padding-bottom: 10px;
