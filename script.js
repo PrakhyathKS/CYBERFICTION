@@ -49,7 +49,7 @@ function locomotive() {
 function files(index) {
     var data = '';
     for (var i = 1; i <= 300; i++) {
-        data += `./CyberFiction Images/male${String(i).padStart(4, '0')}.png\n`;
+        data += `./CyberFiction webp img/male${String(i).padStart(4, '0')}.webp\n`;
     }
     return data.trim().split("\n")[index];
 }

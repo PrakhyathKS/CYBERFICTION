@@ -267,14 +267,12 @@ nav h3 {
 }
 
 #page4 #page4-text {
-  position: absolute;
-  top: 10%;
-  left: 20%;
+  text-align: center;
+  padding-top: 100px;
 }
 #page4 #page4-text h3 {
   line-height: 1.2;
   font-size: 15px;
-  text-align: center;
   font-weight: 300;
 }
 #page4 #page4-text h1 {
@@ -296,7 +294,7 @@ nav h3 {
   overflow: hidden;
 }
 #page4 #page4-img-main-loop #page4-img-loop {
-  animation: img-loop-animation 24s linear infinite;
+  animation: img-loop-animation 48s linear infinite;
 }
 
 #page4 #page4-img-main-loop #page4-img-loop img {
@@ -313,14 +311,13 @@ nav h3 {
   }
 }
 #page-prev-last #page-prev-last-text {
-  position: absolute;
-  top: 20%;
-  left: 8%;
+  text-align: center;
+  padding-top: 100px;
 }
 #page-prev-last #page-prev-last-text h3 {
   line-height: 1.2;
   font-size: 15px;
-  text-align: center;
+  /* text-align: center; */
   font-weight: 300;
 }
 #page-prev-last #page-prev-last-text h1 {
@@ -364,7 +361,7 @@ nav h3 {
   -webkit-text-stroke: 1.2px #000;
   color: transparent;
   font-weight: 500;
-  animation: text-loop-animation 10s linear infinite;
+  animation: text-loop-animation 32s linear infinite;
 }
 #profile #prof-loop-text2 {
   white-space: nowrap;
@@ -379,7 +376,7 @@ nav h3 {
   -webkit-text-stroke: 1.2px #000;
   color: transparent;
   font-weight: 500;
-  animation: text-loop-animation 15s linear infinite reverse;
+  animation: text-loop-animation 24s linear infinite reverse;
 }
 #profile #prof-loop-text3 {
   white-space: nowrap;
@@ -395,7 +392,7 @@ nav h3 {
   -webkit-text-stroke: 1.2px #000;
   color: transparent;
   font-weight: 500;
-  animation: text-loop-animation 24s linear infinite;
+  animation: text-loop-animation 48s linear infinite;
 }
 #profile #prof-desc {
   position: absolute;
@@ -453,15 +450,10 @@ nav button {
 }
 footer {
   position: relative;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
   width: 100%;
-  /* background: #171010; */
-  color: black;
-  padding: 0 0 2rem;
   background-color: #e1e1e1;
+  /* background: #171010; */
+  /* padding: 0 0 2rem; */
 }
 footer a {
   color: black;
@@ -470,15 +462,19 @@ footer a {
 footer #foot-links {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 footer #foot-links a {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   width: 200px;
   padding: 0.5em;
   margin: 0.5rem;
+  text-align: center;
   border: 1px solid black;
   border-radius: 1rem;
   color: black;
@@ -501,6 +497,9 @@ footer #foot-mid-text {
   color: transparent;
   font-weight: 500;
   font-style: italic;
+}
+footer #foot-bottom p {
+  text-align: center;
 }
 footer #foot-bottom span {
   font-family: "Noto Sans KR", sans-serif;
@@ -549,9 +548,10 @@ footer #foot-bottom span {
 #roadmap-div #container {
   display: flex;
   justify-content: center;
+  /* align-items: center; */
   flex-wrap: wrap;
   margin-top: 100px;
-  width: 90%;
+  width: 85rem;
   /* left: 45%; */
   margin-right: auto;
   margin-left: auto;
@@ -577,4 +577,67 @@ footer #foot-bottom span {
   /* text-align: left; */
   line-height: 1.2;
   margin-bottom: 5px;
+}
+
+#div-learn {
+  height: 100%;
+  width: 50px;
+  background-color: white;
+}
+
+#profile #profile-header {
+  text-align: center;
+  padding-top: 50px;
+}
+#profile #profile-header h1 {
+  font-size: 64px;
+}
+#profile #profile-header p {
+  font-size: 14px;
+}
+
+#prof-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  z-index: 5;
+  top: 20%;
+}
+
+#prof-container #prof-card {
+  overflow: hidden;
+  /* background-color: aqua; */
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+#prof-container #prof-card img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 1rem;
+}
+#prof-container #prof-card #prof-card-content {
+  text-align: center;
+  max-width: 500px;
+  /* margin-left: 45px; */
+}
+#prof-container #prof-card #prof-card-content h4 {
+  font-size: 24px;
+  margin-bottom: 0.5rem;
+}
+#prof-container #prof-card #prof-card-content h5 {
+  font-size: 17px;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+#prof-container #prof-card #prof-card-content p {
+  font-size: 14px;
+  /* max-width: 500px; */
+  margin-bottom: 0.5rem;
 }
