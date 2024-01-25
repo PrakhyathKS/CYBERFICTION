@@ -73,7 +73,7 @@ body {
   background-color: #e1e1e1;
 }
 canvas {
-  position: relative;
+  position: absolute;
   z-index: 10;
   max-width: 100vw;
   max-height: 100vh;
@@ -135,13 +135,16 @@ nav h3 {
   left: 80%;
   position: absolute;
   font-size: 15px;
+  z-index: 50;
 }
 #page1 #right-text {
   position: absolute;
   top: 30%;
   left: 5%;
+  z-index: 50;
 }
 #page1 #right-text h3 {
+  z-index: 50;
   font-weight: 300;
   color: #000;
   font-size: 15px;
@@ -149,6 +152,7 @@ nav h3 {
 #page1 #right-text h1 {
   line-height: 1.2;
   font-size: 43px;
+  z-index: 50;
 }
 #page1 #left-text {
   position: absolute;
@@ -162,6 +166,7 @@ nav h3 {
   text-align: end;
 }
 #page1 #left-text h1 {
+  z-index: 50;
   line-height: 1.2;
   font-size: 43px;
   text-align: end;
@@ -521,4 +526,55 @@ footer #foot-bottom span {
 }
 #roadmap #box-container p {
   margin: 0.5em 0;
+}
+
+#roadmap-div {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-color: #e1e1e1;
+}
+#roadmap-div #roadmap-div-header {
+  padding-top: 100px;
+  /* padding-left: 40%; */
+  /* padding-right: 50%; */
+  text-align: center;
+}
+#roadmap-div #roadmap-div-header h1 {
+  font-size: 64px;
+}
+#roadmap-div #roadmap-div-header p {
+  font-size: 14px;
+}
+#roadmap-div #container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  width: 90%;
+  /* left: 45%; */
+  margin-right: auto;
+  margin-left: auto;
+}
+#roadmap-div #container #box {
+  width: 325px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 16px;
+  margin: 10px;
+}
+#roadmap-div #container #box span {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+#roadmap-div #container #box h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+#roadmmap-div #container #box p {
+  font-size: 14px;
+  /* text-align: left; */
+  line-height: 1.2;
+  margin-bottom: 5px;
 }

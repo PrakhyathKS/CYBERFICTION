@@ -155,9 +155,9 @@ function files(index) {
       scroller:`#main`
     }
   })
-  gsap.to("#roadmap",{
+  gsap.to("#roadmap-div",{
     scrollTrigger:{
-      trigger:`#roadmap`,
+      trigger:`#roadmap-div`,
       start:`top top`,
       end:`bottom top`,
       pin:true,
