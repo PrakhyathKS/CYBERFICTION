@@ -1,4 +1,4 @@
-<h1 id="title"></h1>
+<h1 id="title">CYBERFICTION*</h1>
 
 <p id="description">Cyberfiction aims to be a decentralized community that can create new values and profits through play in the virtual world. </p>
 <p id="description">A Clone web page(old version) of </p>
