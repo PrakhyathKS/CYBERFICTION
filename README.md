@@ -1,6 +1,7 @@
 <h1 id="title"></h1>
 
-<p id="description">Cyberfiction aims to be a decentralized community that can create new values and profits through play in the virtual world A Clone web page of <a href="https://cyberfiction.io/?ckattempt=1">CYBERFICTION*</a></p>
+<p id="description">Cyberfiction aims to be a decentralized community that can create new values and profits through play in the virtual world A Clone web page of:</p>
+<a href="https://cyberfiction.io/?ckattempt=1">CYBERFICTION*</a>
 <p id="description">A Clone web page of </p>
 
 <h2> Demo</h2>
